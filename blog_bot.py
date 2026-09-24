@@ -14,8 +14,8 @@ Every run:
 Env vars (GitHub secrets):
   ANTHROPIC_API_KEY   Claude API key
   GH_TOKEN            fine-grained PAT with Contents: read/write on the site repos
-  AWIN_PUBLISHER_ID   your Awin publisher (affiliate) ID
-  AWIN_API_TOKEN      Awin API token (optional; without it links use cread.php format)
+  AWIN_PUBLISHER_ID    ${{ secrets.AWIN_ID }}
+  AWIN_API_TOKEN      ${{ secrets.AWIN_API }})
 Optional:
   GH_ORG, SITES_PER_DAY (2), POSTS_PER_SITE (2), MIN_WORDS (1200),
   KEYWORD_MODEL, ARTICLE_MODEL, FORCE_SITES ("repo1,repo2"), DRY_RUN ("1")
