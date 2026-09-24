@@ -1,0 +1,188 @@
+[
+  {
+    "repo": "business",
+    "enabled": false,
+    "_note": "Set the real domain, then change enabled to true",
+    "domain": "REPLACE-business-domain.com",
+    "niche": "buying and selling small businesses",
+    "audience": "US small business buyers and sellers",
+    "advertisers": []
+  },
+  {
+    "repo": "buybeststore",
+    "domain": "buybeststore.com",
+    "niche": "online shopping buying guides",
+    "audience": "US online shoppers",
+    "advertisers": [
+      { "name": "Lunzo", "awin_id": "REPLACE", "urls": [
+        { "label": "Lunzo store", "url": "https://REPLACE-lunzo-url/" } ] }
+    ]
+  },
+  {
+    "repo": "CostumeScout",
+    "enabled": false,
+    "_note": "Set the real domain and advertisers, then change enabled to true",
+    "domain": "REPLACE-costumescout-domain.com",
+    "niche": "Halloween and party costumes",
+    "audience": "US adults and parents shopping for costumes",
+    "advertisers": []
+  },
+  {
+    "repo": "curated4herV2",
+    "domain": "curated4her.com",
+    "niche": "women's dresses, wigs, gifts, skincare and sunglasses",
+    "audience": "US women shopping for fashion and gifts",
+    "advertisers": [
+      { "name": "ZAPAKA", "awin_id": "REPLACE", "urls": [ { "label": "ZAPAKA dresses", "url": "https://REPLACE/" } ] },
+      { "name": "ZLIKE Hair", "awin_id": "REPLACE", "urls": [ { "label": "Zlike human hair wigs", "url": "https://www.zlikehair.com/" } ] },
+      { "name": "Gift Lab", "awin_id": "REPLACE", "urls": [ { "label": "Gift Lab gifts", "url": "https://REPLACE/" } ] },
+      { "name": "Uzari Skincare", "awin_id": "REPLACE", "urls": [ { "label": "Uzari skincare", "url": "https://REPLACE/" } ] },
+      { "name": "Revomadic", "awin_id": "REPLACE", "urls": [ { "label": "Revomadic sunglasses", "url": "https://REPLACE/" } ] }
+    ]
+  },
+  {
+    "repo": "desi.markets",
+    "domain": "desi.markets",
+    "niche": "South Asian groceries and online stores",
+    "audience": "South Asian families in the US shopping online",
+    "advertisers": [
+      { "name": "Distacart", "awin_id": "95519", "urls": [
+        { "label": "Distacart Indian groceries", "url": "https://www.distacart.com/" } ] }
+    ]
+  },
+  {
+    "repo": "ezpass.uk",
+    "domain": "ezpass.uk",
+    "niche": "city sightseeing passes",
+    "audience": "tourists planning city breaks in Europe and the US",
+    "advertisers": [
+      { "name": "Turbopass", "awin_id": "REPLACE", "urls": [
+        { "label": "Turbopass city passes", "url": "https://www.turbopass.com/" } ] }
+    ]
+  },
+  {
+    "repo": "FLOWEROFHEAVEN",
+    "domain": "flowerofheaven.com",
+    "niche": "flower and garden seeds",
+    "audience": "US home gardeners",
+    "advertisers": [
+      { "name": "REPLACE seed vendor", "awin_id": "REPLACE", "urls": [
+        { "label": "Flower seeds", "url": "https://REPLACE/" } ] }
+    ]
+  },
+  {
+    "repo": "flyhorizons.online",
+    "domain": "flyhorizons.online",
+    "blog_dir": "blogs",
+    "niche": "flights, hotels and premium ground travel",
+    "audience": "US travelers planning trips",
+    "advertisers": [
+      { "name": "Evago", "awin_id": "127793", "urls": [
+        { "label": "Evago flights and hotels", "url": "https://evago.org/" } ] },
+      { "name": "LandJet", "awin_id": "128231", "urls": [
+        { "label": "LandJet Mercedes-Benz ground travel", "url": "https://landjet.com/" } ] }
+    ]
+  },
+  {
+    "repo": "glowsculpt.site",
+    "domain": "glowsculpt.site",
+    "niche": "skincare, beauty tools and sculpting makeup",
+    "audience": "US women interested in skincare routines",
+    "advertisers": [
+      { "name": "SBLA Beauty", "awin_id": "REPLACE", "urls": [ { "label": "SBLA Beauty", "url": "https://REPLACE/" } ] },
+      { "name": "Uzari Skincare", "awin_id": "REPLACE", "urls": [ { "label": "Uzari skincare", "url": "https://REPLACE/" } ] },
+      { "name": "FOREO", "awin_id": "REPLACE", "urls": [ { "label": "FOREO BEAR 2 facial toning device", "url": "https://www.foreo.com/" } ] }
+    ]
+  },
+  {
+    "repo": "hairstyle.company",
+    "domain": "hairstyle.company",
+    "niche": "women's wigs, hair styling and hair care",
+    "audience": "US women buying wigs and hair treatments",
+    "advertisers": [
+      { "name": "UNice", "awin_id": "REPLACE", "urls": [ { "label": "UNice glueless wigs", "url": "https://www.unice.com/" } ] },
+      { "name": "Zlike Hair", "awin_id": "REPLACE", "urls": [ { "label": "Zlike lace wigs", "url": "https://www.zlikehair.com/" } ] },
+      { "name": "Allove Hair", "awin_id": "REPLACE", "urls": [ { "label": "Allove human hair wigs", "url": "https://www.allovehair.com/" } ] },
+      { "name": "Jumy Bee", "awin_id": "REPLACE", "urls": [ { "label": "Jumy Bee keratin treatments", "url": "https://www.jumybee.com/" } ] }
+    ]
+  },
+  {
+    "repo": "homewellnessdeals",
+    "domain": "homewellnessdeals.com",
+    "niche": "home wellness and home comfort products",
+    "audience": "US homeowners",
+    "advertisers": [
+      { "name": "REPLACE vendor", "awin_id": "REPLACE", "urls": [ { "label": "REPLACE", "url": "https://REPLACE/" } ] }
+    ]
+  },
+  {
+    "repo": "jewellery.store",
+    "domain": "jewllery.store",
+    "_note": "Check the spelling of the live domain",
+    "niche": "diamond and modern jewelry",
+    "audience": "US jewelry shoppers and gift buyers",
+    "advertisers": [
+      { "name": "Omara Jewelry", "awin_id": "REPLACE", "urls": [ { "label": "Omara diamond jewelry", "url": "https://omara.pl/" } ] },
+      { "name": "Hey Happiness", "awin_id": "REPLACE", "urls": [ { "label": "Hey Happiness modern jewelry", "url": "https://heyhappiness.com/" } ] }
+    ]
+  },
+  {
+    "repo": "lensloop",
+    "domain": "lensloop.site",
+    "niche": "prescription glasses, sunglasses and smart glasses",
+    "audience": "US adults buying glasses online",
+    "advertisers": [
+      { "name": "Eydology", "awin_id": "124966", "urls": [
+        { "label": "Eydology prescription glasses", "url": "https://www.eydology.com/" } ] }
+    ]
+  },
+  {
+    "repo": "luxurytravel.party",
+    "domain": "luxurytravel.party",
+    "niche": "luxury yacht and boat rentals",
+    "audience": "US travelers planning luxury trips and celebrations",
+    "advertisers": [
+      { "name": "Sailo", "awin_id": "REPLACE", "urls": [
+        { "label": "Sailo yacht and boat rentals", "url": "https://www.sailo.com/" } ] }
+    ]
+  },
+  {
+    "repo": "medicalsupplie",
+    "enabled": false,
+    "_note": "Set the real domain and advertisers, then change enabled to true",
+    "domain": "REPLACE-medical-domain.com",
+    "niche": "home medical supplies",
+    "audience": "US caregivers buying home medical supplies",
+    "advertisers": []
+  },
+  {
+    "repo": "outdoorhaulers",
+    "domain": "outdoorhaulers.site",
+    "niche": "e-bike hitch racks, kayak carriers, roof and cargo carriers",
+    "audience": "US drivers hauling bikes, kayaks and gear",
+    "advertisers": [
+      { "name": "OUTFITR", "awin_id": "REPLACE", "urls": [
+        { "label": "OUTFITR e-bike hitch racks", "url": "https://REPLACE/" } ] }
+    ]
+  },
+  {
+    "repo": "outdoorsports.fun",
+    "domain": "outdoorsports.fun",
+    "niche": "outdoor sports and camping gear",
+    "audience": "US outdoor enthusiasts",
+    "advertisers": [
+      { "name": "Traverseon", "awin_id": "REPLACE", "urls": [ { "label": "Traverseon outdoor gear", "url": "https://traverseon.com/" } ] },
+      { "name": "OUTFITR", "awin_id": "REPLACE", "urls": [ { "label": "OUTFITR racks and carriers", "url": "https://REPLACE/" } ] },
+      { "name": "Toputure", "awin_id": "125464", "urls": [ { "label": "Toputure outdoor gear", "url": "https://toputure.com/" } ] }
+    ]
+  },
+  {
+    "repo": "realskillset",
+    "domain": "realskillset.com",
+    "niche": "online courses and career skills",
+    "audience": "US adults learning new skills online",
+    "advertisers": [
+      { "name": "REPLACE course vendor", "awin_id": "REPLACE", "urls": [ { "label": "REPLACE", "url": "https://REPLACE/" } ] }
+    ]
+  }
+]
