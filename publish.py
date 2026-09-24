@@ -2,7 +2,7 @@ import os, json, datetime, subprocess, pathlib, anthropic, re
 client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 GH_TOKEN = os.getenv("GH_TOKEN")
 ORG = "shaheenarifch-arch"
-MODEL = "MODEL = "claude-haiku-4-5-20251001"
+MODEL = "claude-haiku-4-5-20251001"
 
 with open("sites.json") as f:
     all_sites = json.load(f)
