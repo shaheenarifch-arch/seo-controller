@@ -121,4 +121,3 @@ for site in todays_sites:
     print(f"Push result for {site}: {push.returncode} {push.stdout} {push.stderr}")
 
 print("\n=== ALL DONE ===")
-
