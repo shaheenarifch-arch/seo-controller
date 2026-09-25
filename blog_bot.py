@@ -44,14 +44,71 @@ POSTS_PER_SITE = int(os.getenv("POSTS_PER_SITE", "2"))
 MIN_WORDS = int(os.getenv("MIN_WORDS", "1200"))
 FORCE_SITES = [s.strip() for s in os.getenv("FORCE_SITES", "").split(",") if s.strip()]
 DRY_RUN = os.getenv("DRY_RUN", "0") in ("1", "true", "True")
+PAGES_PER_MERCHANT = int(os.getenv("PAGES_PER_MERCHANT", "3"))
 
 client = anthropic.Anthropic()
 TODAY = datetime.date.today().isoformat()
 
 
 # ---------------------------------------------------------------- sites
+def _norm(name):
+    return re.sub(r"[^a-z0-9]", "", (name or "").lower())
+
+
+def load_affiliate_data():
+    """Merchant IDs, accounts and deep-link prefixes kept up to date by
+    affiliate-data/update_portfolio.py (see affiliate-data/README.md)."""
+    p = pathlib.Path("affiliate-data/blog-deeplinks.json")
+    if not p.exists():
+        print("affiliate-data/blog-deeplinks.json not found - using sites.json advertisers only")
+        return {}
+    data = json.loads(p.read_text(encoding="utf-8"))
+    out = {}
+    for s in data.get("sites", []):
+        for key in (s.get("github_repo"), s.get("site")):
+            if key:
+                out[key.lower()] = s
+    return out
+
+
+def merge_advertisers(site, data_site):
+    """Advertiser IDs/accounts come from the affiliate data file; product URLs and
+    labels already set in sites.json are kept for the matching merchant."""
+    old = [a for a in site.get("advertisers", [])]
+    merged = []
+    for m in data_site.get("merchants", []):
+        match = None
+        for a in old:
+            aid, an = str(a.get("awin_id", "")), _norm(a.get("name"))
+            if aid == m["advertiser_id"] or (an and (an in _norm(m["brand"]) or _norm(m["brand"]) in an)):
+                match = a
+                break
+        urls = [u for u in (match or {}).get("urls", [])
+                if u.get("url", "").startswith("http") and "REPLACE" not in u.get("url", "")]
+        # important pages found by the daily job: top products, best sellers, new, deals
+        pages = m.get("pages", [])
+        products = [p for p in pages if p.get("type") == "product"]
+        others = [p for p in pages if p.get("type") != "product"]
+        n_prod = max(PAGES_PER_MERCHANT - 1, 1) if others else PAGES_PER_MERCHANT
+        for p in products[:n_prod] + others:  # e.g. 2 top products + best sellers page
+            if len(urls) >= PAGES_PER_MERCHANT:
+                break
+            if p["url"] not in [u["url"] for u in urls]:
+                kind = {"product": "product", "bestsellers": "best sellers", "new": "new arrivals",
+                        "deals": "deals"}.get(p.get("type"), "page")
+                urls.append({"label": f"{m['brand']} {kind}: {p['label']}", "url": p["url"]})
+        if not urls and m.get("website"):
+            urls = [{"label": f"{m['brand']} store", "url": m["website"]}]
+        merged.append({"name": (match or {}).get("name") or m["brand"],
+                       "awin_id": m["advertiser_id"],
+                       "account": m.get("account") or AWIN_PUBLISHER_ID,
+                       "urls": urls})
+    return merged
+
+
 def load_sites():
     raw = json.loads(pathlib.Path("sites.json").read_text(encoding="utf-8"))
+    affiliate = load_affiliate_data()
     sites = []
     for s in raw:
         if isinstance(s, str):  # backwards compatible with the old ["repo", ...] format
@@ -62,6 +119,11 @@ def load_sites():
         s.setdefault("blog_dir", "blog")
         s.setdefault("advertisers", [])
         s.setdefault("enabled", True)
+        data_site = affiliate.get(s["repo"].lower())
+        if data_site:
+            s["advertisers"] = merge_advertisers(s, data_site)
+            if "REPLACE" in s["domain"] and data_site.get("url"):
+                s["domain"] = urllib.parse.urlparse(data_site["url"]).netloc
         if s["enabled"]:
             sites.append(s)
     return sites
@@ -78,12 +140,13 @@ def pick_sites(sites):
 
 
 # ---------------------------------------------------------------- Awin
-def awin_deeplink(advertiser_id, destination, clickref):
+def awin_deeplink(advertiser_id, destination, clickref, publisher_id=None):
     """Awin Link Builder API; falls back to the standard cread.php deep-link format."""
+    publisher_id = str(publisher_id or AWIN_PUBLISHER_ID)
     if AWIN_TOKEN:
         try:
             req = urllib.request.Request(
-                f"https://api.awin.com/publishers/{AWIN_PUBLISHER_ID}/linkbuilder/generate",
+                f"https://api.awin.com/publishers/{publisher_id}/linkbuilder/generate",
                 data=json.dumps({
                     "advertiserId": int(advertiser_id),
                     "destinationUrl": destination,
@@ -102,7 +165,7 @@ def awin_deeplink(advertiser_id, destination, clickref):
             print(f"  awin api -> fallback link for {advertiser_id}: {e}")
     q = urllib.parse.urlencode({
         "awinmid": advertiser_id,
-        "awinaffid": AWIN_PUBLISHER_ID,
+        "awinaffid": publisher_id,
         "clickref": clickref,
         "ued": destination,
     })
@@ -126,7 +189,7 @@ def build_links(site):
                 "id": f"LINK_{n}",
                 "advertiser": adv["name"],
                 "label": item.get("label", adv["name"]),
-                "url": awin_deeplink(adv_id, item["url"], clickref),
+                "url": awin_deeplink(adv_id, item["url"], clickref, adv.get("account")),
             })
     return links
 

@@ -1,0 +1,884 @@
+{
+ "updated": "2026-09-25T12:28Z",
+ "deep_link_format": "https://www.awin1.com/cread.php?awinmid={advertiser_id}&awinaffid={account}&ued={URL_ENCODED_PAGE}",
+ "sites": [
+  {
+   "site": "businessbuy",
+   "url": "https://businessbuy.site/",
+   "niche": "Businesses",
+   "countries": "USA, UK",
+   "github_repo": "business",
+   "merchants": [
+    {
+     "advertiser_id": "116725",
+     "brand": "World Businesses for Sale",
+     "website": "https://worldbusinessesforsale.com/",
+     "category": "Savings & Investments",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=116725&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=116725&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "buybeststore",
+   "url": "https://buybeststore.com/",
+   "niche": "Home essentials (Europe)",
+   "countries": "Germany, Poland, Czechia, Slovakia, Austria",
+   "github_repo": "buybeststore",
+   "merchants": [
+    {
+     "advertiser_id": "69786",
+     "brand": "Lunzo DE",
+     "website": "https://www.lunzo.de/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=69786&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=69786&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "114104",
+     "brand": "Lunzo AT",
+     "website": "https://www.lunzo.at/",
+     "category": "Department Stores",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=114104&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=114104&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "54357",
+     "brand": "Lapert CZ",
+     "website": "https://www.lapert.cz/",
+     "category": "Womenswear",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=54357&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=54357&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "54355",
+     "brand": "Lunzo CZ",
+     "website": "https://www.lunzo.cz/",
+     "category": "Womenswear",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=54355&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=54355&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "40452",
+     "brand": "Lunzo HU",
+     "website": "https://www.lunzo.hu/",
+     "category": "Entertainment Superstore",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=40452&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=40452&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "costumescout",
+   "url": "https://costumescout.store/",
+   "niche": "Costumes",
+   "countries": "USA",
+   "github_repo": "CostumeScout",
+   "merchants": [
+    {
+     "advertiser_id": "83201",
+     "brand": "Abracadabra NYC",
+     "website": "https://abracadabranyc.com/",
+     "category": "Clothing",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=83201&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=83201&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "coupondepots",
+   "url": "https://coupondepots.info/",
+   "niche": "Affiliate marketing",
+   "countries": "USA",
+   "github_repo": "",
+   "merchants": [
+    {
+     "advertiser_id": "115216",
+     "brand": "King Koil",
+     "website": "https://www.kingkoilairbeds.com/",
+     "category": "Furniture & Soft Furnishings",
+     "account": "3075433",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=115216&awinaffid=3075433",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=115216&awinaffid=3075433&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "128579",
+     "brand": "Everblog US",
+     "website": "https://everblog.com/",
+     "category": "Electronic Accessories",
+     "account": "3075433",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=128579&awinaffid=3075433",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=128579&awinaffid=3075433&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "92667",
+     "brand": "SAILO, INC",
+     "website": "https://www.sailo.com/",
+     "category": "Toys & Games",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=92667&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=92667&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "curated4her",
+   "url": "https://curated4her.com/",
+   "niche": "Attire / accessories",
+   "countries": "USA",
+   "github_repo": "curated4herV2",
+   "merchants": [
+    {
+     "advertiser_id": "129433",
+     "brand": "Uzari",
+     "website": "https://uzariskincare.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=129433&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=129433&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "121298",
+     "brand": "EverLeakProof US",
+     "website": "https://everleakproof.com/",
+     "category": "Lingerie",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=121298&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=121298&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "121760",
+     "brand": "Triple Bristle (US)",
+     "website": "https://www.triplebristle.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=121760&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=121760&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "91139",
+     "brand": "ZAPAKA VINTAGE, Inc.",
+     "website": "https://zapaka.com/",
+     "category": "Clothing",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=91139&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=91139&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "119629",
+     "brand": "PURTY BODY Affiliate Program",
+     "website": "https://purtybody.com/",
+     "category": "Lingerie",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=119629&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=119629&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "95201",
+     "brand": "Giftlab",
+     "website": "https://www.giftlab.com/",
+     "category": "Gifts & Flowers",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=95201&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=95201&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "flowerofheaven",
+   "url": "https://flowerofheaven.store/",
+   "niche": "Gardening products",
+   "countries": "Spain",
+   "github_repo": "FLOWEROFHEAVEN",
+   "merchants": [
+    {
+     "advertiser_id": "113386",
+     "brand": "Blimburn Seeds",
+     "website": "https://blimburnseeds.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=113386&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=113386&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "getservices",
+   "url": "https://getservices.ai/",
+   "niche": "AI companies",
+   "countries": "China, Hong Kong, USA",
+   "github_repo": "",
+   "merchants": [
+    {
+     "advertiser_id": "129153",
+     "brand": "Rewarx Studio AI",
+     "website": "https://www.rewarx.com/",
+     "category": "Business Services (B2B)",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=129153&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=129153&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "126975",
+     "brand": "EasyClaw",
+     "website": "https://easyclaw.com/",
+     "category": "Software Downloads",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=126975&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=126975&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "125752",
+     "brand": "Maniana AI (US)",
+     "website": "https://app.maniana.ai/",
+     "category": "Business Services (B2B)",
+     "account": "3075433",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=125752&awinaffid=3075433",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=125752&awinaffid=3075433&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "homewellnessdeals",
+   "url": "https://homewellnessdeals.com/",
+   "niche": "Home essentials",
+   "countries": "USA",
+   "github_repo": "homewellnessdeals",
+   "merchants": [
+    {
+     "advertiser_id": "126513",
+     "brand": "Argendon",
+     "website": "https://www.argendon.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=126513&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=126513&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "129093",
+     "brand": "BRKOX",
+     "website": "https://brkox.com/",
+     "category": "DIY",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=129093&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=129093&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "117035",
+     "brand": "HappyPatina US",
+     "website": "https://happypatina.com/",
+     "category": "Clothing Accessories",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=117035&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=117035&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "99013",
+     "brand": "Simple Project (Shenzhen Cangyu Technology)",
+     "website": "https://simpleprojectus.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=99013&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=99013&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "123618",
+     "brand": "Cozeware",
+     "website": "https://www.cozeware.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=123618&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=123618&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "127859",
+     "brand": "Monvane",
+     "website": "https://monvane.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=127859&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=127859&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "126089",
+     "brand": "Minteefy",
+     "website": "https://www.minteefy.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=126089&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=126089&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "104549",
+     "brand": "AlorAir Crawlspace",
+     "website": "https://www.aloraircrawlspace.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=104549&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=104549&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "124284",
+     "brand": "AlorAir – The Dry Air",
+     "website": "https://thedryair.com/",
+     "category": "Department Stores",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=124284&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=124284&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "95201",
+     "brand": "Giftlab",
+     "website": "https://www.giftlab.com/",
+     "category": "Gifts & Flowers",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=95201&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=95201&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "78080",
+     "brand": "imarku",
+     "website": "https://imarku.net/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=78080&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=78080&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "jewllery",
+   "url": "https://jewllery.store/",
+   "niche": "Jewellery",
+   "countries": "Germany, Poland",
+   "github_repo": "jewellery.store",
+   "merchants": [
+    {
+     "advertiser_id": "111366",
+     "brand": "Hey Happiness (Sparkle GmbH)",
+     "website": "https://www.heyhappiness.com/",
+     "category": "Clothing Accessories",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=111366&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=111366&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "122380",
+     "brand": "Omara Jewelry",
+     "website": "https://omara.pl/",
+     "category": "Jewellery",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=122380&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=122380&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "54357",
+     "brand": "Lapert CZ",
+     "website": "https://www.lapert.cz/",
+     "category": "Womenswear",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=54357&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=54357&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "54359",
+     "brand": "Lapert SK",
+     "website": "https://www.lapert.sk/",
+     "category": "Womenswear",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=54359&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=54359&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "lensloop",
+   "url": "http://lensloop.site/",
+   "niche": "Eye products",
+   "countries": "USA",
+   "github_repo": "lensloop",
+   "merchants": [
+    {
+     "advertiser_id": "128033",
+     "brand": "Dima Eyewear (US)",
+     "website": "https://dimaeyewear.com/",
+     "category": "Clothing Accessories",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=128033&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=128033&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "124966",
+     "brand": "Eydology",
+     "website": "https://eydology.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=124966&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=124966&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "127209",
+     "brand": "Contactlensesplus Affiliate US",
+     "website": "https://www.contactlensesplus.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=127209&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=127209&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "luxurytravel",
+   "url": "https://luxurytravel.party/",
+   "niche": "Travel / rental / canvas & brushes",
+   "countries": "USA, France (SamBoat Bordeaux)",
+   "github_repo": "luxurytravel.party",
+   "merchants": [
+    {
+     "advertiser_id": "92667",
+     "brand": "SAILO, INC",
+     "website": "https://www.sailo.com/",
+     "category": "Toys & Games",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=92667&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=92667&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "90193",
+     "brand": "Canvas Vows",
+     "website": "https://www.canvasvows.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=90193&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=90193&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "129485",
+     "brand": "Silver Brush",
+     "website": "https://www.silverbrush.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=129485&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=129485&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "32679",
+     "brand": "SamBoat US",
+     "website": "https://www.samboat.com/",
+     "category": "Cruises/Ferries",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=32679&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=32679&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "medicalsupplie",
+   "url": "https://medicalsupplie.com/",
+   "niche": "Medical / health care",
+   "countries": "USA",
+   "github_repo": "medicalsupplie",
+   "merchants": [
+    {
+     "advertiser_id": "130233",
+     "brand": "FullScopeMD",
+     "website": "https://www.fullscopemd.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=130233&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=130233&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "127003",
+     "brand": "REVO (Revomadic)",
+     "website": "https://revomadic.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=127003&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=127003&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "124250",
+     "brand": "Brookwood Med",
+     "website": "https://brookwoodmed.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=124250&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=124250&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "124966",
+     "brand": "Eydology",
+     "website": "https://eydology.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=124966&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=124966&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "37118",
+     "brand": "WINGGOOD (WalkHero)",
+     "website": "https://walkhero.com/",
+     "category": "Clothing Accessories",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=37118&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=37118&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "117741",
+     "brand": "Finitex (Titans Medicare)",
+     "website": "https://www.titansmedicare.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=117741&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=117741&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "outdoorhaulers",
+   "url": "http://outdoorhaulers.site/",
+   "niche": "Outdoor hauling gear",
+   "countries": "USA",
+   "github_repo": "outdoorhaulers",
+   "merchants": [
+    {
+     "advertiser_id": "117613",
+     "brand": "OUTFITR (US)",
+     "website": "https://outfitrer.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=117613&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=117613&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "outdoorsports",
+   "url": "https://outdoorsports.fun/",
+   "niche": "Sports / outdoor",
+   "countries": "USA",
+   "github_repo": "outdoorsports.fun",
+   "merchants": [
+    {
+     "advertiser_id": "125464",
+     "brand": "Toputure - US",
+     "website": "https://toputure.com/",
+     "category": "Sports Equipment",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=125464&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=125464&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "116187",
+     "brand": "Kings Camo (US)",
+     "website": "https://www.kingscamo.com/",
+     "category": "Clothing",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=116187&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=116187&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "117613",
+     "brand": "OUTFITR (US)",
+     "website": "https://outfitrer.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=117613&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=117613&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "124816",
+     "brand": "Traverseon",
+     "website": "https://traverseon.com/",
+     "category": "Home & Garden",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=124816&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=124816&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "realskillset",
+   "url": "http://realskillset.com/",
+   "niche": "Learning / education",
+   "countries": "Ireland",
+   "github_repo": "realskillset",
+   "merchants": [
+    {
+     "advertiser_id": "120101",
+     "brand": "Alison US CA",
+     "website": "https://alison.com/",
+     "category": "Education, Training & Recruitment",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=120101&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=120101&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "127997",
+     "brand": "New Learning Network",
+     "website": "https://lingzio.com/",
+     "category": "Education, Training & Recruitment",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=127997&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=127997&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "hairstyle.company",
+   "url": "https://hairstyle.company/",
+   "niche": "Hair / wigs",
+   "countries": "USA",
+   "github_repo": "hairstyle.company",
+   "merchants": [
+    {
+     "advertiser_id": "102013",
+     "brand": "Zlike Hair",
+     "website": "https://zlikehair.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=102013&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "39912",
+     "brand": "UNice (US)",
+     "website": "https://m.unice.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=39912&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=39912&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "50899",
+     "brand": "Allove Hair (Xuchang Aixiu)",
+     "website": "https://www.allovehair.com/",
+     "category": "Clothing Accessories",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=50899&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=50899&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "129553",
+     "brand": "Jumy Bee - US",
+     "website": "https://jumybee.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=129553&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=129553&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "glowsculpt",
+   "url": "https://glowsculpt.site/",
+   "niche": "Skin care",
+   "countries": "USA",
+   "github_repo": "glowsculpt.site",
+   "merchants": [
+    {
+     "advertiser_id": "90879",
+     "brand": "SBLA Inc.",
+     "website": "https://sbla.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=90879&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=90879&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "129433",
+     "brand": "Uzari",
+     "website": "https://uzariskincare.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=129433&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=129433&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "73936",
+     "brand": "Foreo US",
+     "website": "https://www.foreo.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=73936&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=73936&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "ezpass.uk",
+   "url": "https://ezpass.uk/",
+   "niche": "City passes",
+   "countries": "USA, UK, Europe, Dubai",
+   "github_repo": "ezpass.uk",
+   "merchants": [
+    {
+     "advertiser_id": "100613",
+     "brand": "Turbopass US",
+     "website": "https://www.turbopass.com/",
+     "category": "Tourism & Attractions",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=100613&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=100613&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "buybeststores.uk",
+   "url": "https://buybeststores.uk/",
+   "niche": "UK treadmills",
+   "countries": "UK",
+   "github_repo": "",
+   "merchants": [
+    {
+     "advertiser_id": "106313",
+     "brand": "DeerRun UK",
+     "website": "https://uk.deerruntreadmill.com/",
+     "category": "Sports Equipment",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=106313&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=106313&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "flyhorizons",
+   "url": "https://flyhorizons.online/",
+   "niche": "Travel",
+   "countries": "USA",
+   "github_repo": "flyhorizons.online",
+   "merchants": [
+    {
+     "advertiser_id": "127793",
+     "brand": "Evago (US)",
+     "website": "https://evago.org/",
+     "category": "Travel Agencies",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=127793&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=127793&awinaffid=3067297&ued=",
+     "pages": []
+    },
+    {
+     "advertiser_id": "128231",
+     "brand": "LandJet",
+     "website": "https://landjet.com/",
+     "category": "Travel Agencies",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=128231&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=128231&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "desi.markets",
+   "url": "https://desi.markets/",
+   "niche": "Desi Indian / Pakistani store",
+   "countries": "Worldwide",
+   "github_repo": "desi.markets",
+   "merchants": [
+    {
+     "advertiser_id": "95519",
+     "brand": "Distacart",
+     "website": "https://www.distacart.com/",
+     "category": "Health & Beauty",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=95519&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=95519&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  },
+  {
+   "site": "drivezone",
+   "url": "https://drivezone.nexus/",
+   "niche": "Car radio / audio",
+   "countries": "",
+   "github_repo": "",
+   "merchants": [
+    {
+     "advertiser_id": "32471",
+     "brand": "Eonon (US)",
+     "website": "https://www.eonon.com/",
+     "category": "Audio Visual",
+     "account": "3067297",
+     "affiliate_link": "https://www.awin1.com/cread.php?awinmid=32471&awinaffid=3067297",
+     "deep_link_prefix": "https://www.awin1.com/cread.php?awinmid=32471&awinaffid=3067297&ued=",
+     "pages": []
+    }
+   ]
+  }
+ ]
+}

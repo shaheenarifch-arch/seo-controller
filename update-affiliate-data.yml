@@ -1,0 +1,33 @@
+name: Update affiliate data
+on:
+  schedule:
+    - cron: "45 9 * * *"    # daily 5:45 AM New York (EDT) - before the 6:00 AM blog run
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "affiliate-data/merchants.csv"
+      - "affiliate-data/sites.csv"
+      - "affiliate-data/creatives.csv"
+      - "affiliate-data/pages.csv"
+      - "affiliate-data/update_portfolio.py"
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sync with Awin and rebuild links
+        env:
+          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
+        run: python affiliate-data/update_portfolio.py
+      - name: Commit changes
+        run: |
+          git config user.name "affiliate-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add affiliate-data
+          git diff --cached --quiet || git commit -m "Update affiliate data" && git push
